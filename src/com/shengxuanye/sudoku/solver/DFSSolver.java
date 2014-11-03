@@ -5,7 +5,7 @@ import com.shengxuanye.sudoku.Sudoku;
 
 /**
  * This is a solver of Sudoku using DFS (recursion method). 
- * @author Shengxuan
+ * @author Shengxuan Ye
  */
 
 public class DFSSolver implements Solver {

@@ -6,7 +6,7 @@ import com.shengxuanye.sudoku.solver.Solver;
 
 /**
  * This class gives some examples for the Sudoku solver.
- * Example files are in ./data. Note that the 16x16 Sudoku takes a long time to run.  
+ * Example files are in ./data. Note that the 16x16 Sudoku takes a long time to run, so I temporary commented out. 
  * @author Shengxuan Ye
  */
 
@@ -43,9 +43,10 @@ public class Examples {
 
 	}
 	
-	
-	
-	
+	/**
+	 * Function to print a 2D grid
+	 * @param a: 2d int grid
+	 */
 	
 	public static void printGrid(int a[][])
 	{

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 /**
  * File I/O helper function for Sudoku, including reader and writer. 
  * It reads and writes CSV files with comma delimiter. 
- * The function writes solutions with same path and append "_out_i.txt" to the original input filename, 
+ * The function writes solutions with same path and append "_out_i.csv" to the original input filename, 
  * where i is each of the solution. 
  * @author Shengxuan Ye
  */
@@ -89,7 +89,7 @@ public class FileIO {
 				}
 				br.write(sb.toString());
 				br.close();
-				System.out.println("File written at: "+filePath+"_out_"+i+".txt"); 
+				System.out.println("File written at: "+filePath+"_out_"+i+".csv"); 
 			} catch (IOException ioe) {
 				System.err.println("File writing error"); 
 			}

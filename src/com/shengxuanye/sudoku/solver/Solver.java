@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import com.shengxuanye.sudoku.Sudoku;
 
 /**
- * Solver interface. 
- * @author Shengxuan
+ * Solver interface. Each solver takes in a Sudoku and outputs an ArrayList of solutions. 
+ * @author Shengxuan Ye
  */
 
 public interface Solver {
